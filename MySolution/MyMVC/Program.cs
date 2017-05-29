@@ -11,6 +11,7 @@ namespace MyMVC
     {
         public static void Main(string[] args)
         {
+            //program
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
